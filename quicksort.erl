@@ -1,17 +1,13 @@
 %%%-------------------------------------------------------------------
-%%% @author chenthill
+%%% @author chen
 %%% @copyright (C) 2018, <COMPANY>
 %%% @doc
 %%%
 %%% @end
-%%% Created : 03. Aug 2018 2:51 PM
+%%% Created : 05. Aug 2018 7:24 AM
 %%%-------------------------------------------------------------------
--module(factorial).
--author("chenthill").
+-module(quicksort).
+-author("chen").
 
 %% API
--export([factorial/1]).
-
-factorial (0) -> 1;
-factorial (N) when N > 0 ->
-  N * factorial(N-1).
+-export([]).
